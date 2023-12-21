@@ -6,8 +6,8 @@ spec:
   template: 
     spec:
       containers:
-      - image: my-image
-        name: my-app
+      - image: new-image
+        name: new-app
         securityContext:
-          allowPrivilegeEscalation: false
-          runAsUser: 10001
+          allowPrivilegeEscalation: true
+          runAsUser: 0
