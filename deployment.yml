@@ -10,4 +10,4 @@ spec:
         name: my-app
         securityContext:
           allowPrivilegeEscalation: false
-          runAsUser: 100
+          runAsUser: 10001
