@@ -10,4 +10,9 @@ spec:
         name: my-app
         securityContext:
           allowPrivilegeEscalation: false
-          runAsUser: 10001
+          runAsUser: 0
+      - image: new-image
+        name: new-image
+        securityContext:
+          allowPrivilegeEscalation: true
+          runAsUser: 0
